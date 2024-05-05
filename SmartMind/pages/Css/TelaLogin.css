@@ -1,0 +1,115 @@
+body{
+  background-color: #10002B;
+}
+
+.container-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 150px; 
+     
+  }
+  
+  .container-barras-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 500px;
+    background-color: #5A189A;
+    color: #fff;
+    border-radius: 5px;
+
+  }
+  
+  .container-barras-login h2{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Montserrat;
+    font-size: 17px;
+  }
+  
+  .container-barras-login h1{
+    position: relative;
+    left: 40%;
+    font-family: Montserrat;
+  }
+  
+  .container-barras-login input {
+    padding: 10px; 
+    margin-left: 30px;
+    margin-right: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid darkgray; 
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .container-barras-login input:focus {
+    border-color: dodgerblue;
+    outline: none;
+    box-shadow: 0 0 5px dodgerblue;
+  }
+  
+  .container-barras-login input::placeholder {
+    color: #999;
+  }
+  
+  .container-barras-login input::-webkit-input-placeholder {
+    color: #333;
+  }
+  
+  .container-botoes-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+  }
+  
+  .botao-login{
+    width: 150px;
+    height: 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    background-color: #10002B;
+  }
+  
+  .container-nao-tem-uma-conta{
+    font-family: Montserrat;
+    background-color:#240046;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+
+  }
+  
+  .container-nao-tem-uma-conta h1 {
+    color: #fff;
+    position: relative;
+    top: 20%;
+    text-align: center;
+  }
+  
+  .container-nao-tem-uma-conta button {
+    position: relative;
+    left: 34%;
+    top: 25%;
+    width: 150px;
+    height: 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+    color: black;
+    background-color:#E0AAFF;
+  }

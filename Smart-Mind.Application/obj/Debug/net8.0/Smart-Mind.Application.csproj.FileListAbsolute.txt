@@ -1,0 +1,15 @@
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\bin\Debug\net8.0\Smart-Mind.Application.deps.json
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\bin\Debug\net8.0\Smart-Mind.Application.dll
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\bin\Debug\net8.0\Smart-Mind.Application.pdb
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\bin\Debug\net8.0\Smart-Mind.Domain.dll
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\bin\Debug\net8.0\Smart-Mind.Domain.pdb
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\Smart-Mind.Application.csproj.AssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\Smart-Mind.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\Smart-Mind.Application.AssemblyInfoInputs.cache
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\Smart-Mind.Application.AssemblyInfo.cs
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\Smart-Mind.Application.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\Smart-Mi.67A1E9DA.Up2Date
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\Smart-Mind.Application.dll
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\refint\Smart-Mind.Application.dll
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\Smart-Mind.Application.pdb
+C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Application\obj\Debug\net8.0\ref\Smart-Mind.Application.dll

@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\aprendendo c#\\smart-mind\\smart-mind.application\\services\\questaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\services\\questaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\aprendendo c#\\smart-mind\\smart-mind.application\\services\\testeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\services\\testeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuestaoService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Services\\QuestaoService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Services\\QuestaoService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Services\\QuestaoService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Services\\QuestaoService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:15:21.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TesteService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Services\\TesteService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Services\\TesteService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Services\\TesteService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Services\\TesteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:15:20.912Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

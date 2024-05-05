@@ -1,0 +1,38 @@
+.barra-pesquisa {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #240046;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Define a largura como 100% */
+}
+.container-botoes-pesquisa{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.h2-barra{
+    display: flex;
+    justify-content: flex-start; /* Alinha a div interna no canto esquerdo */
+    align-items: center;
+    margin-right: 920px;
+    margin-left: 20px;
+}
+
+.container-botoes-pesquisa button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #5A189A;
+    color: #FCFCFC;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+

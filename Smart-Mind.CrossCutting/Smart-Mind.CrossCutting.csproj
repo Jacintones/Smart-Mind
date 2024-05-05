@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Smart_Mind.CrossCutting</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="AutoMapper" Version="13.0.1" />
+	<ProjectReference Include="..\Smart-Mind.Application\Smart-Mind.Application.csproj" />
+    <ProjectReference Include="..\Smart-Mind.Domain\Smart-Mind.Domain.csproj" />
+    <ProjectReference Include="..\Smart-Mind.infrastructure\Smart-Mind.infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

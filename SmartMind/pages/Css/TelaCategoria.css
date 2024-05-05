@@ -1,0 +1,24 @@
+.container-tela-categorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+.container-assunto{
+    color: #fff;
+    background-color: #5A189A;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-assunto :hover{
+    background-color: #7B2CBF;
+}

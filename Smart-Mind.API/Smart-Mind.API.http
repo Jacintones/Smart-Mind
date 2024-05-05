@@ -1,0 +1,6 @@
+@Smart_Mind.API_HostAddress = http://localhost:5007
+
+GET {{Smart_Mind.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
