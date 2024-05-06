@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Smart_Mind.Domain.Entities;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace Smart_Mind.Application.DTOs
 {
@@ -12,12 +9,16 @@ namespace Smart_Mind.Application.DTOs
         public int Id { get; set; }
 
         [Required]
-        public string? Nome { get; set; }
+        public string Nome { get; set; } = null!;
 
         [Required]
-        public string? ImagemUrl { get; set; }
+        public string ImagemUrl { get; set; } = null!;
 
         [Required]
-        public int CategoriaId { get; set; }
+        public int CategoriaId { get; set; } 
+
+        [JsonIgnore]
+        public ICollection<AssuntoDTO> Assuntos { get; set; } = [];
+
     }
 }

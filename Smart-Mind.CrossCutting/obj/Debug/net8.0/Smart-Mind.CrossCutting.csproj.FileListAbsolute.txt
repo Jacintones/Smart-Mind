@@ -17,3 +17,23 @@ C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.CrossCutt
 C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\refint\Smart-Mind.CrossCutting.dll
 C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mind.CrossCutting.pdb
 C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\ref\Smart-Mind.CrossCutting.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\bin\Debug\net8.0\Smart-Mind.CrossCutting.deps.json
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\bin\Debug\net8.0\Smart-Mind.CrossCutting.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\bin\Debug\net8.0\Smart-Mind.CrossCutting.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\bin\Debug\net8.0\Smart-Mind.Application.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\bin\Debug\net8.0\Smart-Mind.Domain.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\bin\Debug\net8.0\Smart-Mind.infrastructure.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\bin\Debug\net8.0\Smart-Mind.Application.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\bin\Debug\net8.0\Smart-Mind.Domain.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\bin\Debug\net8.0\Smart-Mind.infrastructure.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mind.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mind.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mind.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mind.CrossCutting.AssemblyInfo.cs
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mind.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mind.CrossCutting.sourcelink.json
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mi.BC2FEE91.Up2Date
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mind.CrossCutting.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\refint\Smart-Mind.CrossCutting.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\Smart-Mind.CrossCutting.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.CrossCutting\obj\Debug\net8.0\ref\Smart-Mind.CrossCutting.dll

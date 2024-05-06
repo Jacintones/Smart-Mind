@@ -15,7 +15,7 @@ namespace Smart_Mind.Domain.Interfaces
 
         Task<ICollection<Teste>> GetTesteWithQuestoes();
 
-        Task<Teste> Create(Teste dto);
+        Task<Teste> Create(Teste teste);
 
         Task<Teste> Update(Teste teste);
 

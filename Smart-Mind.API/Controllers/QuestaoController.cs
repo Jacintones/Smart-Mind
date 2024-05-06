@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
 using Smart_Mind.Domain.Entities;
 
@@ -11,34 +14,43 @@ namespace Smart_Mind.API.Controllers
     {
         private readonly IQuestaoService _questaoService;
 
-        public QuestaoController(IQuestaoService questaoService)
+        private readonly IMapper _mapper;
+
+        public QuestaoController(IQuestaoService questaoService, IMapper mapper)
         {
             _questaoService = questaoService;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<QuestaoDTO>>> GetAll()
+        public async Task<ActionResult<IEnumerable<QuestaoResponse>>> GetAll()
         {
             var questoes = await _questaoService.GetAll();
 
-            return Ok(questoes);
+            var response = _mapper.Map<IEnumerable<QuestaoResponse>>(questoes);
+
+            return Ok(response);
         }
 
         [HttpGet("{id:int}", Name = "GetQuestao")]
-        public async Task<ActionResult<QuestaoDTO>> GetById(int id)
+        public async Task<ActionResult<QuestaoResponse>> GetById(int id)
         {
             var questao = await _questaoService.GetById(id);
 
-            return Ok(questao);
+            var response = _mapper.Map<QuestaoResponse>(questao);
+
+            return Ok(response);
         }
 
         [HttpPost]
-        public async Task<ActionResult<QuestaoDTO>> Create(QuestaoDTO dto)
+        public async Task<ActionResult> Create(QuestaoRequest request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
+
+            var dto = _mapper.Map<QuestaoDTO>(request);
 
             await _questaoService.Add(dto);
 
@@ -57,6 +69,7 @@ namespace Smart_Mind.API.Controllers
             {
                 return BadRequest();
             }
+
             await _questaoService.Update(dto);
 
             return Ok(dto);

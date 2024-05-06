@@ -7855,11 +7855,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj",
+      "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj",
       "projectName": "Smart-Mind.API",
-      "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj",
+      "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.API\\obj\\",
+      "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7880,8 +7880,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj"
+            "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj"
             }
           }
         }

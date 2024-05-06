@@ -1,9 +1,4 @@
 ﻿using Smart_Mind.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Smart_Mind.Application.DTOs.Response
 {
@@ -11,14 +6,14 @@ namespace Smart_Mind.Application.DTOs.Response
     {
         public int Id { get; set; }
 
-        public string? Nome { get; set; }
+        public string Nome { get; set; } = null!;
 
-        public string? ImagemUrl { get; set; }
+        public string ImagemUrl { get; set; } = null!;
 
         public int CategoriaId { get; set; }
 
-        public Categoria? Categoria { get; set; }
+        public Categoria Categoria { get; set; } = null!;
 
-        public ICollection<Assunto>? Assuntos { get; set; }
+        public ICollection<AssuntoDTO> Assuntos { get; set; } = null!;
     }
 }

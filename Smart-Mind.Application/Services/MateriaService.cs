@@ -24,7 +24,7 @@ namespace Smart_Mind.Application.Services
 
             await _materiaRepository.Create(materia);
 
-            materiaDTO.CategoriaId = materia.CategoriaId;
+            materiaDTO.Id = materia.Id;
         }
 
         public async Task<IEnumerable<MateriaDTO>> GetAll()

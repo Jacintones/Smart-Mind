@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
 
 namespace Smart_Mind.API.Controllers
@@ -8,11 +11,14 @@ namespace Smart_Mind.API.Controllers
     [Route("api/[controller]")]
     public class TesteController : ControllerBase
     {
-        private ITesteService _testeService;
+        private readonly ITesteService _testeService;
 
-        public TesteController(ITesteService testeService)
+        private readonly IMapper _mapper;
+
+        public TesteController(ITesteService testeService, IMapper mapper)
         {
             _testeService = testeService;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -24,7 +30,7 @@ namespace Smart_Mind.API.Controllers
         }
 
         [HttpGet("{id}", Name = "GetTeste")]
-        public async Task<ActionResult<TesteDTO>> Get(int id)
+        public async Task<ActionResult<TesteResponse>> Get(int id)
         {
             var teste = await _testeService.GetById(id);
 
@@ -32,21 +38,26 @@ namespace Smart_Mind.API.Controllers
             {
                 return NotFound();
             }
-            return Ok(teste);
+
+            var response = _mapper.Map<TesteResponse>(teste);
+
+            return Ok(response);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] TesteDTO testeDTO)
+        public async Task<ActionResult> Post([FromBody] TesteRequest request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            await _testeService.Add(testeDTO);
+            var dto = _mapper.Map<TesteDTO>(request);
+
+            await _testeService.Add(dto);
 
             return new CreatedAtRouteResult("GetTeste",
-                new { id = testeDTO.Id }, testeDTO);
+                new { id = dto.Id }, dto);
         }
 
 

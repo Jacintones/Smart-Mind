@@ -34,7 +34,7 @@ namespace Smart_Mind.infrastructure.Migrations
 
                     b.HasIndex("TestesId");
 
-                    b.ToTable("QuestaoTeste");
+                    b.ToTable("QuestaoTeste", (string)null);
                 });
 
             modelBuilder.Entity("Smart_Mind.Domain.Entities.Assunto", b =>
@@ -62,7 +62,7 @@ namespace Smart_Mind.infrastructure.Migrations
 
                     b.HasIndex("MateriaId");
 
-                    b.ToTable("Assuntos");
+                    b.ToTable("Assuntos", (string)null);
                 });
 
             modelBuilder.Entity("Smart_Mind.Domain.Entities.Categoria", b =>
@@ -79,7 +79,7 @@ namespace Smart_Mind.infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Categorias", (string)null);
                 });
 
             modelBuilder.Entity("Smart_Mind.Domain.Entities.Materia", b =>
@@ -104,7 +104,7 @@ namespace Smart_Mind.infrastructure.Migrations
 
                     b.HasIndex("CategoriaId");
 
-                    b.ToTable("Materias");
+                    b.ToTable("Materias", (string)null);
                 });
 
             modelBuilder.Entity("Smart_Mind.Domain.Entities.Questao", b =>
@@ -153,7 +153,7 @@ namespace Smart_Mind.infrastructure.Migrations
 
                     b.HasIndex("AssuntoId");
 
-                    b.ToTable("Questoes");
+                    b.ToTable("Questoes", (string)null);
                 });
 
             modelBuilder.Entity("Smart_Mind.Domain.Entities.Teste", b =>
@@ -185,7 +185,7 @@ namespace Smart_Mind.infrastructure.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Testes");
+                    b.ToTable("Testes", (string)null);
                 });
 
             modelBuilder.Entity("Smart_Mind.Domain.Entities.Usuario", b =>
@@ -223,7 +223,7 @@ namespace Smart_Mind.infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuarios", (string)null);
                 });
 
             modelBuilder.Entity("QuestaoTeste", b =>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CdYrEOBPL1UW2woMD0e/SJoZLrsHRX0NezXaV+bzIcYBXN59T1uyGLgdrco4Txl6GNslgFg+wa0rmRr0iEKCkw==",
+  "dgSpecHash": "9PyZD2hR5cyHoGXzRqakSDvCi1bzxVndJ2qgS/qDDFMtPBKxOELfh+hJr9KXQ7Kyz7jn43P28eGt7CBo2aGv3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

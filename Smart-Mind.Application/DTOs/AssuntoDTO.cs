@@ -1,10 +1,6 @@
 ﻿using Smart_Mind.Domain.Entities;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace Smart_Mind.Application.DTOs
 {
@@ -15,16 +11,21 @@ namespace Smart_Mind.Application.DTOs
         [Required(ErrorMessage = "O nome é obrigatório")]
         [MinLength(3)]
         [MaxLength(100)]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = null!;
 
         [Required(ErrorMessage = "O Link é obrigatório")]
-        public string VideoAulaUrl { get; set; }
+        public string VideoAulaUrl { get; set; } = null!;
 
-        public string? ImagemUrl { get; set; }
-
+        public string ImagemUrl { get; set; } = null!;
 
         [Required(ErrorMessage = "O id da matéria é obrigatório")]
         public int MateriaId { get; set; }
+
+        [JsonIgnore]
+        public Materia? Materia { get; set; }
+
+        [JsonIgnore]
+        public ICollection<Questao> Questoes { get; set; } = [];
 
     }
 }

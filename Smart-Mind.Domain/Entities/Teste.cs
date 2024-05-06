@@ -9,6 +9,7 @@
             Pontuacao = pontuacao;
             PontuacaoUsuario = pontuacaoUsuario;
             UsuarioId = usuarioId;
+            Questoes = [];
         }
 
         public string? Nome { get;private set; }
@@ -23,6 +24,6 @@
 
         public Usuario Usuario { get; private set; }
 
-        public ICollection<Questao>? Questoes { get; private set; }
+        public ICollection<Questao> Questoes { get; private set; }
     }
 }

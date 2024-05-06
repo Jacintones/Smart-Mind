@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj": {}
+    "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj": {
+    "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj",
         "projectName": "Smart-Mind.API",
-        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj",
+        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Smart-Mind.API.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.API\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj": {
+    "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj",
         "projectName": "Smart-Mind.Application",
-        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj",
+        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -115,8 +115,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj": {
-                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj"
               }
             }
           }
@@ -169,14 +169,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj": {
+    "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj",
         "projectName": "Smart-Mind.CrossCutting",
-        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.CrossCutting\\Smart-Mind.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -197,14 +197,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj": {
-                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj"
               },
-              "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj": {
-                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj"
               },
-              "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj": {
-                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj"
               }
             }
           }
@@ -249,14 +249,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj": {
+    "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
         "projectName": "Smart-Mind.Domain",
-        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
+        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -319,14 +319,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj": {
+    "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj",
         "projectName": "Smart-Mind.infrastructure",
-        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj",
+        "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -347,11 +347,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj": {
-                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Smart-Mind.Application.csproj"
               },
-              "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj": {
-                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj"
               }
             }
           }

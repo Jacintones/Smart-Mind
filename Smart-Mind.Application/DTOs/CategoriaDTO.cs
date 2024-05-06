@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 
 namespace Smart_Mind.Application.DTOs
@@ -10,8 +11,9 @@ namespace Smart_Mind.Application.DTOs
         [Required]
         [MinLength(3)]
         [MaxLength(100)]    
-        public string? Nome { get; set; }
+        public string Nome { get; set; } = null!;
 
-        public ICollection<MateriaDTO>? Materias { get; set; }
+        [JsonIgnore]
+        public ICollection<MateriaDTO> Materias { get; set; } = null!;
     }
 }

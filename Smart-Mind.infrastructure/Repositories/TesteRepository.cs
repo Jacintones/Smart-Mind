@@ -41,7 +41,7 @@ namespace Smart_Mind.infrastructure.Repositories
 
         public async Task<Teste> GetById(int id)
         {
-            return await _context.Testes.FindAsync(id);
+            return await _context.Testes.Include(q => q.Questoes).FirstOrDefaultAsync(t => t.Id == id);
         }
 
         public async Task<ICollection<Teste>> GetTesteWithQuestoes()

@@ -14,12 +14,20 @@ namespace Smart_Mind.infrastructure.Repositories
             _context = context;
         }
 
+        /// <summary>
+        /// Método assíncrono para criar um assunto e salva-lo no banco
+        /// </summary>
+        /// <param name="assunto">Corpo do assunto</param>
+        /// <returns>retorna o próprio assunto passado</returns>
         public async Task<Assunto> Create(Assunto assunto)
         {
+            //Chama o contexto e salva o assunto
             _context.Assuntos.Add(assunto);
 
+            //Chama o contexto e salva
             await _context.SaveChangesAsync();
 
+            //Retorna o próprio assunto
             return assunto;
         }
 
@@ -39,7 +47,7 @@ namespace Smart_Mind.infrastructure.Repositories
 
         public async Task<Assunto> GetById(int id)
         {
-            return await _context.Assuntos.FindAsync(id);
+            return await _context.Assuntos.Include(a => a.Questoes).FirstOrDefaultAsync(a => a.Id == id);
         }
 
         public async Task<Assunto> Update(Assunto assunto)

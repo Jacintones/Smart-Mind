@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
 using Smart_Mind.Application.Services;
 
@@ -11,37 +14,55 @@ namespace Smart_Mind.API.Controllers
     {
         private readonly IAssuntoService _assuntoService;
 
-        public AssuntoController(IAssuntoService assuntoService)
+        private readonly IMapper _mapper;
+
+        public AssuntoController(IAssuntoService assuntoService, IMapper mapper)
         {
             _assuntoService = assuntoService;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<AssuntoDTO>>> GetAll()
+        public async Task<ActionResult<IEnumerable<AssuntoResponse>>> GetAll()
         {
             var assuntos = await _assuntoService.GetAll();
 
-            return Ok(assuntos);
+            var response = _mapper.Map<IEnumerable<AssuntoResponse>>(assuntos);
+
+            return Ok(response);
         }
 
         [HttpGet("{id:int}", Name = "GetAssunto")]
-        public async Task<ActionResult<AssuntoDTO>> GetById(int id)
+        public async Task<ActionResult<AssuntoResponse>> GetById(int id)
         {
             var assunto = await _assuntoService.GetById(id);
 
-            return Ok(assunto);
+            if (assunto == null)
+            {
+                return NotFound();
+            }
+
+            var response = _mapper.Map<AssuntoResponse>(assunto);
+
+            return Ok(response);
         }
 
         [HttpPost]
-        public async Task<ActionResult<AssuntoDTO>> Create([FromBody] AssuntoDTO assuntoDTO)
+        public async Task<ActionResult> Create([FromBody] AssuntoRequest request)
         {
+            //Verifico se é válido, se não for, retorno um badrequest
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
+            //Converto o request para DTO
+            var assuntoDTO = _mapper.Map<AssuntoDTO>(request);
+
+            //Chamo a camada de serviços passando o dto de forma assíncrona
             await _assuntoService.Add(assuntoDTO);
 
+            //Retorna a rota 201
             return new CreatedAtRouteResult("GetAssunto",
                 new { id = assuntoDTO.Id }, assuntoDTO);
         }

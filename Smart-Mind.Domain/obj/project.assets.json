@@ -821,11 +821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
       "projectName": "Smart-Mind.Domain",
-      "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
+      "projectPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\obj\\",
+      "outputPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

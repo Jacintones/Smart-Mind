@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Smart_Mind.Application.DTOs;
 using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
 using Smart_Mind.Domain.Entities;
 
@@ -30,7 +31,7 @@ namespace Smart_Mind.API.Controllers
         }
 
         [HttpGet("{id}", Name = "GetCategoria")]
-        public async Task<ActionResult<CategoriaDTO>> Get(int id)
+        public async Task<ActionResult<CategoriaResponse>> Get(int id)
         {
             var categoria = await _categoriaService.GetById(id);
 
@@ -39,16 +40,20 @@ namespace Smart_Mind.API.Controllers
                 return NotFound();
             }
 
-            return Ok(categoria);
+            var response = _mapper.Map<CategoriaResponse>(categoria);
+
+            return Ok(response);
         }
 
         [HttpGet]
-        [Route("GetComMateria")]
-        public async Task<ActionResult<ICollection<CategoriaDTO>>> GetWithMateria()
+        [Route("CategoriaComMateria")]
+        public async Task<ActionResult<IEnumerable<CategoriaResponse>>> GetWithMateria()
         {
             var categorias = await _categoriaService.GetCategoriasWithMaterias();
 
-            return Ok(categorias);
+            var response = _mapper.Map<IEnumerable<CategoriaResponse>>(categorias);
+
+            return Ok(response);
         }
 
         [HttpPost]

@@ -1,8 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
-using Smart_Mind.Application.Services;
 using Smart_Mind.Domain.Entities;
 
 namespace Smart_Mind.API.Controllers
@@ -13,9 +14,12 @@ namespace Smart_Mind.API.Controllers
     {
         private readonly IMateriaService _materiaService;
 
-        public MateriaController(IMateriaService materiaService)
+        private readonly IMapper _mapper;
+
+        public MateriaController(IMateriaService materiaService, IMapper mapper)
         {
             _materiaService = materiaService;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -26,26 +30,30 @@ namespace Smart_Mind.API.Controllers
             return Ok(materias);
         }
 
-        [HttpGet("{id:int}", Name = "GetMaterias")]
-        public async Task<ActionResult<MateriaDTO>> GetById(int id)
+        [HttpGet("{id:int}", Name = "GetMateria")]
+        public async Task<ActionResult<MateriaResponse>> GetById(int id)
         {
             var materia = await _materiaService.GetById(id);
 
-            return Ok(materia);
+            var response = _mapper.Map<MateriaResponse>(materia);
+
+            return Ok(response);
         }
 
         [HttpPost]
-        public async Task<ActionResult<MateriaDTO>> Create([FromBody] MateriaDTO dto)
+        public async Task<ActionResult> Post([FromBody] MateriaRequest request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            await _materiaService.Add(dto);
+            var materiaDto = _mapper.Map<MateriaDTO>(request);
 
-            return new CreatedAtRouteResult("GetMaterias",
-                new { id = dto.Id }, dto);
+            await _materiaService.Add(materiaDto);
+
+            return new CreatedAtRouteResult("GetMateria",
+                new { id = materiaDto.Id }, materiaDto);
         }
 
         [HttpPut("{id}")]

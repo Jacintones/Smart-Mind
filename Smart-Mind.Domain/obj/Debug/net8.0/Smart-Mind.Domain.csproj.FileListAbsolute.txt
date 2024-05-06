@@ -10,3 +10,16 @@ C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Domain\ob
 C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.pdb
 C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\ref\Smart-Mind.Domain.dll
 C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.csproj.AssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\bin\Debug\net8.0\Smart-Mind.Domain.deps.json
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\bin\Debug\net8.0\Smart-Mind.Domain.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\bin\Debug\net8.0\Smart-Mind.Domain.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.csproj.AssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.AssemblyInfoInputs.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.AssemblyInfo.cs
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.sourcelink.json
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\refint\Smart-Mind.Domain.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\Smart-Mind.Domain.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.Domain\obj\Debug\net8.0\ref\Smart-Mind.Domain.dll

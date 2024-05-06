@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fhmYIugq8bQwpZUUnqDPzMip9DM0VyrU2mE4LuQJ5zlZns1HlM4xUa3iQwAQwQ96xadzeRzgff5+Ml6t8wnUvA==",
+  "dgSpecHash": "Z6kSCldQjyhH/szqhUQOtMBjCnf6XAjeCpnZx2Glb8SLcqiB+aM9ZKxbgC4/09HV9RtFHyof5YoxHOM75ulW1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.infrastructure\\Smart-Mind.infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

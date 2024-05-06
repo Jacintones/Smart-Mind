@@ -12,7 +12,7 @@ namespace Smart_Mind.infrastructure.Repositories
 {
     public class CategoriaRepository : ICategoriaRepository
     {
-        private ApplicationDbContext _categoryContext;
+        private readonly ApplicationDbContext _categoryContext;
 
         public CategoriaRepository(ApplicationDbContext context)
         {

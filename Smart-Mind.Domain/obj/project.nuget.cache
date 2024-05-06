@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wsEXgu1IwHlKLdds6PwuB9kt6Bmu8Y+6H506Eizh5ww4a/ayTJVg+bxH1ERULgb964dsD2jXBHDBDq37wZKiCg==",
+  "dgSpecHash": "+oNLG5xb9n2aHl9j19Y/CntN0AC4SBs1fggwwQ3rfpssaMQSmKKAiC40xHvfdXlVpAwyRFxoaeCyu372O0ShQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Documentos\\Aprendendo C#\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
+  "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Domain\\Smart-Mind.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.4\\microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.4\\microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",

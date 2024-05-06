@@ -21,9 +21,14 @@ namespace Smart_Mind.Application.Services
 
         public async Task Add(AssuntoDTO assuntoDTO)
         {
+            //Converto o dto para o formato padrão de dados
             var assunto = _mapper.Map<Assunto>(assuntoDTO); 
 
+            //Chamo o método do repositório que cria a instância
             await _assuntoRepository.Create(assunto);
+
+            //Seto o id afim de informar no response
+            assuntoDTO.Id = assunto.Id;
         }
 
         public async Task<IEnumerable<AssuntoDTO>> GetAll()

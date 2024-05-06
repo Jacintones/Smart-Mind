@@ -17,3 +17,23 @@ C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.infrastru
 C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.pdb
 C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.genruntimeconfig.cache
 C:\Users\thiag\OneDrive\Documentos\Aprendendo C#\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\ref\Smart-Mind.infrastructure.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\bin\Debug\net8.0\Smart-Mind.infrastructure.deps.json
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\bin\Debug\net8.0\Smart-Mind.infrastructure.runtimeconfig.json
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\bin\Debug\net8.0\Smart-Mind.infrastructure.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\bin\Debug\net8.0\Smart-Mind.infrastructure.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\bin\Debug\net8.0\Smart-Mind.Application.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\bin\Debug\net8.0\Smart-Mind.Domain.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\bin\Debug\net8.0\Smart-Mind.Application.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\bin\Debug\net8.0\Smart-Mind.Domain.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.csproj.AssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.AssemblyInfoInputs.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.AssemblyInfo.cs
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.sourcelink.json
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mi.84480627.Up2Date
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\refint\Smart-Mind.infrastructure.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.pdb
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\Smart-Mind.infrastructure.genruntimeconfig.cache
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.infrastructure\obj\Debug\net8.0\ref\Smart-Mind.infrastructure.dll
