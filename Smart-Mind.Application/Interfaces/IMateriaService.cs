@@ -1,4 +1,6 @@
 ﻿using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +11,13 @@ namespace Smart_Mind.Application.Interfaces
 {
     public interface IMateriaService
     {
-        Task<IEnumerable<MateriaDTO>> GetAll();
+        Task<IEnumerable<MateriaResponse>> GetAll();
 
-        Task<MateriaDTO> GetById(int id);
+        Task<MateriaResponse> GetById(int id);
 
-        Task Add(MateriaDTO materiaDTO);
+        Task Add(MateriaRequest request);
 
-        Task Update(MateriaDTO materiaDTO);
+        Task Update(MateriaRequest request);
 
         Task Remove(int id);
     }

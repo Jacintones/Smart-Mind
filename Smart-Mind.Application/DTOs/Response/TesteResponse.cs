@@ -18,6 +18,6 @@ namespace Smart_Mind.Application.DTOs.Response
 
         public int UsuarioId { get; set; }
 
-        public ICollection<QuestaoDTO> Questoes { get; set; } = null!;
+        public ICollection<QuestaoResponse> Questoes { get; set; } = null!;
     }
 }

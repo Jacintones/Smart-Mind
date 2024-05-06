@@ -1,4 +1,6 @@
 ﻿
+using Smart_Mind.Application.DTOs.Request;
+
 namespace Smart_Mind.Application.DTOs.Response
 {
     public class CategoriaResponse
@@ -7,6 +9,6 @@ namespace Smart_Mind.Application.DTOs.Response
 
         public string Nome { get; set; } = null!;
 
-        public ICollection<MateriaDTO> Materias { get; set; } = null!;
+        public ICollection<MateriaRequest> Materias { get; set; } = null!;
     }
 }

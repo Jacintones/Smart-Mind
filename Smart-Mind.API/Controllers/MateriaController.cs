@@ -14,16 +14,13 @@ namespace Smart_Mind.API.Controllers
     {
         private readonly IMateriaService _materiaService;
 
-        private readonly IMapper _mapper;
-
-        public MateriaController(IMateriaService materiaService, IMapper mapper)
+        public MateriaController(IMateriaService materiaService)
         {
             _materiaService = materiaService;
-            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<MateriaDTO>>> GetAll()
+        public async Task<ActionResult<IEnumerable<MateriaResponse>>> GetAll()
         {
             var materias = await _materiaService.GetAll();
 
@@ -35,9 +32,7 @@ namespace Smart_Mind.API.Controllers
         {
             var materia = await _materiaService.GetById(id);
 
-            var response = _mapper.Map<MateriaResponse>(materia);
-
-            return Ok(response);
+            return Ok(materia);
         }
 
         [HttpPost]
@@ -48,28 +43,26 @@ namespace Smart_Mind.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            var materiaDto = _mapper.Map<MateriaDTO>(request);
-
-            await _materiaService.Add(materiaDto);
+            await _materiaService.Add(request);
 
             return new CreatedAtRouteResult("GetMateria",
-                new { id = materiaDto.Id }, materiaDto);
+                new { id = request.Id }, request);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] MateriaDTO dto)
+        public async Task<ActionResult> Put(int id, [FromBody] MateriaRequest request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            if (id != dto.Id)
+            if (id != request.Id)
             {
                 return BadRequest();
             }
-            await _materiaService.Update(dto);
+            await _materiaService.Update(request);
 
-            return Ok(dto);
+            return Ok(request);
         }
 
         [HttpDelete("{id}")]

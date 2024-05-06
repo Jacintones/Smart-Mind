@@ -1,4 +1,5 @@
 ﻿using Smart_Mind.Domain.Entities;
+using System.Text.Json.Serialization;
 
 namespace Smart_Mind.Application.DTOs.Response
 {
@@ -12,8 +13,9 @@ namespace Smart_Mind.Application.DTOs.Response
 
         public int CategoriaId { get; set; }
 
+        [JsonIgnore]
         public Categoria Categoria { get; set; } = null!;
 
-        public ICollection<AssuntoDTO> Assuntos { get; set; } = null!;
+        public ICollection<AssuntoResponse> Assuntos { get; set; } = null!;
     }
 }

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
 using Smart_Mind.Domain.Entities;
 using Smart_Mind.Domain.Interfaces;
@@ -18,28 +19,28 @@ namespace Smart_Mind.Application.Services
             _mapper = mapper;
         }
 
-        public async Task Add(CategoriaDTO categoriaDTO)
+        public async Task Add(CategoriaRequest request)
         {
-            var categoria = _mapper.Map<Categoria>(categoriaDTO);
+            var categoria = _mapper.Map<Categoria>(request);
 
             await _categoriaRepository.Create(categoria);
 
-            categoriaDTO.Id = categoria.Id;
+            request.Id = categoria.Id;
         }
 
-        public async Task<IEnumerable<CategoriaDTO>> GetAll()
+        public async Task<IEnumerable<CategoriaResponse>> GetAll()
         {
             var categorias = await _categoriaRepository.GetAll(); 
 
-            return _mapper.Map<IEnumerable<CategoriaDTO>>(categorias);  
+            return _mapper.Map<IEnumerable<CategoriaResponse>>(categorias);  
 
         }
 
-        public async Task<CategoriaDTO> GetById(int id)
+        public async Task<CategoriaResponse> GetById(int id)
         {
             var categoria = await _categoriaRepository.GetById(id);
         
-            return _mapper.Map<CategoriaDTO>(categoria);
+            return _mapper.Map<CategoriaResponse>(categoria);
         }
 
         public async Task Remove(int id)
@@ -49,18 +50,18 @@ namespace Smart_Mind.Application.Services
             await _categoriaRepository.Delete(categoryEntity);
         }
 
-        public async Task Update(CategoriaDTO categoriaDTO)
+        public async Task Update(CategoriaRequest request)
         {
-            var categoria = _mapper.Map<Categoria>(categoriaDTO);
+            var categoria = _mapper.Map<Categoria>(request);
 
             await _categoriaRepository.Update(categoria);
         }
 
-        public async Task<ICollection<CategoriaDTO>> GetCategoriasWithMaterias()
+        public async Task<ICollection<CategoriaResponse>> GetCategoriasWithMaterias()
         {
             var categorias = await _categoriaRepository.GetCategoriaWithMateria();
 
-            return _mapper.Map<ICollection<CategoriaDTO>>(categorias);
+            return _mapper.Map<ICollection<CategoriaResponse>>(categorias);
         }
     }
 }

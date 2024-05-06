@@ -5,6 +5,7 @@ using Smart_Mind.Application.DTOs.Request;
 using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
 using Smart_Mind.Application.Services;
+using Smart_Mind.Domain.Entities;
 
 namespace Smart_Mind.API.Controllers
 {
@@ -14,22 +15,19 @@ namespace Smart_Mind.API.Controllers
     {
         private readonly IAssuntoService _assuntoService;
 
-        private readonly IMapper _mapper;
-
-        public AssuntoController(IAssuntoService assuntoService, IMapper mapper)
+        public AssuntoController(IAssuntoService assuntoService)
         {
             _assuntoService = assuntoService;
-            _mapper = mapper;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AssuntoResponse>>> GetAll()
         {
+            //Pega todos os assuntos do service
             var assuntos = await _assuntoService.GetAll();
 
-            var response = _mapper.Map<IEnumerable<AssuntoResponse>>(assuntos);
-
-            return Ok(response);
+            //Retorna Ok
+            return Ok(assuntos);
         }
 
         [HttpGet("{id:int}", Name = "GetAssunto")]
@@ -42,9 +40,7 @@ namespace Smart_Mind.API.Controllers
                 return NotFound();
             }
 
-            var response = _mapper.Map<AssuntoResponse>(assunto);
-
-            return Ok(response);
+            return Ok(assunto);
         }
 
         [HttpPost]
@@ -56,37 +52,34 @@ namespace Smart_Mind.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            //Converto o request para DTO
-            var assuntoDTO = _mapper.Map<AssuntoDTO>(request);
-
             //Chamo a camada de serviços passando o dto de forma assíncrona
-            await _assuntoService.Add(assuntoDTO);
+            await _assuntoService.Add(request);
 
             //Retorna a rota 201
             return new CreatedAtRouteResult("GetAssunto",
-                new { id = assuntoDTO.Id }, assuntoDTO);
+                new { id = request.Id }, request);
         }
 
         [HttpPut("{id:int}")]
-        public async Task<ActionResult<AssuntoDTO>> Update(int id, AssuntoDTO assuntoDTO)
+        public async Task<ActionResult> Update(int id, AssuntoRequest request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != assuntoDTO.Id)
+            if (id != request.Id)
             {
                 return BadRequest();
             }
 
-            await _assuntoService.Update(assuntoDTO);
+            await _assuntoService.Update(request);
 
-            return Ok(assuntoDTO);
+            return Ok(request);
         }
 
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult<AssuntoDTO>> Delete(int id)
+        public async Task<ActionResult<Assunto>> Delete(int id)
         {
             var assunto = await _assuntoService.GetById(id);
 

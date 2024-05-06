@@ -14,12 +14,9 @@ namespace Smart_Mind.API.Controllers
     {
         private readonly IQuestaoService _questaoService;
 
-        private readonly IMapper _mapper;
-
-        public QuestaoController(IQuestaoService questaoService, IMapper mapper)
+        public QuestaoController(IQuestaoService questaoService)
         {
             _questaoService = questaoService;
-            _mapper = mapper;
         }
 
         [HttpGet]
@@ -27,9 +24,8 @@ namespace Smart_Mind.API.Controllers
         {
             var questoes = await _questaoService.GetAll();
 
-            var response = _mapper.Map<IEnumerable<QuestaoResponse>>(questoes);
 
-            return Ok(response);
+            return Ok(questoes);
         }
 
         [HttpGet("{id:int}", Name = "GetQuestao")]
@@ -37,9 +33,7 @@ namespace Smart_Mind.API.Controllers
         {
             var questao = await _questaoService.GetById(id);
 
-            var response = _mapper.Map<QuestaoResponse>(questao);
-
-            return Ok(response);
+            return Ok(questao);
         }
 
         [HttpPost]
@@ -50,29 +44,27 @@ namespace Smart_Mind.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            var dto = _mapper.Map<QuestaoDTO>(request);
-
-            await _questaoService.Add(dto);
+            await _questaoService.Add(request);
 
             return new CreatedAtRouteResult("GetQuestao",
-                new { id = dto.Id }, dto);
+                new { id = request.Id }, request);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] QuestaoDTO dto)
+        public async Task<ActionResult> Put(int id, [FromBody] QuestaoRequest request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            if (id != dto.Id)
+            if (id != request.Id)
             {
                 return BadRequest();
             }
 
-            await _questaoService.Update(dto);
+            await _questaoService.Update(request);
 
-            return Ok(dto);
+            return Ok(request);
         }
 
         [HttpDelete("{id}")]

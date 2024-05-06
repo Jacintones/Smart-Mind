@@ -4,10 +4,12 @@ namespace Smart_Mind.Application.DTOs.Request
 {
     public class QuestaoRequest
     {
+        public int Id { get; set; }
+
         [Required(ErrorMessage = "Enunciado é obrigatório")]
         public string Enunciado { get; set; } = null!;
 
-        public string? ImagemUrl { get; set; } 
+        public string ImagemUrl { get; set; } = null!;
 
         [Required(ErrorMessage = "Alternativa correta é obrigatória")]
         public string AlternativaCorreta { get; set; } = null!;

@@ -16,28 +16,20 @@ namespace Smart_Mind.Application.Mappings
     {
         public DomainToDTOProfile()
         {
-            CreateMap<AssuntoDTO, Assunto>().ReverseMap();
-            CreateMap<AssuntoDTO, AssuntoResponse>().ReverseMap();
-            CreateMap<AssuntoDTO, AssuntoRequest>().ReverseMap();
+            CreateMap<Assunto, AssuntoRequest >().ReverseMap();
+            CreateMap<Assunto, AssuntoResponse>().ReverseMap();
 
-            CreateMap<CategoriaDTO, Categoria>().ReverseMap();
-            CreateMap<CategoriaDTO, CategoriaRequest>().ReverseMap();
-            CreateMap<CategoriaDTO, CategoriaResponse>().ReverseMap();
             CreateMap<Categoria, CategoriaResponse>().ReverseMap();
-            CreateMap<CategoriaRequest, Categoria>().ReverseMap();
+            CreateMap<Categoria, CategoriaRequest>().ReverseMap();
 
-            CreateMap<MateriaDTO, Materia>().ReverseMap();
-            CreateMap<MateriaDTO, MateriaResponse>().ReverseMap();
-            CreateMap<MateriaDTO, MateriaRequest>().ReverseMap();
+            CreateMap<Materia, MateriaResponse>().ReverseMap();
+            CreateMap<Materia, MateriaRequest>().ReverseMap();
 
-            CreateMap<QuestaoDTO, Questao>().ReverseMap();
-            CreateMap<QuestaoDTO, QuestaoRequest>().ReverseMap();
-            CreateMap<QuestaoDTO, QuestaoResponse>().ReverseMap();
+            CreateMap<Questao, QuestaoRequest >().ReverseMap();
+            CreateMap<Questao, QuestaoResponse>().ReverseMap();
 
-            CreateMap<TesteDTO,TesteResponse>().ReverseMap();
-            CreateMap<TesteDTO, Teste>().ReverseMap();
-            CreateMap<TesteDTO, TesteRequest>().ReverseMap();
-            CreateMap<TesteRequest, Teste>().ReverseMap();
+            CreateMap<Teste, TesteResponse>().ReverseMap();
+            CreateMap<Teste, TesteRequest>().ReverseMap();
 
             CreateMap<Usuario, LoginModel>().ReverseMap();
             CreateMap<Usuario, RegisterModel>().ReverseMap();

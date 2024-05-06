@@ -1,6 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
-using Smart_Mind.Application.DTOs;
+﻿using Microsoft.AspNetCore.Mvc;
 using Smart_Mind.Application.DTOs.Request;
 using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
@@ -14,18 +12,16 @@ namespace Smart_Mind.API.Controllers
     {
         private readonly ICategoriaService _categoriaService;
 
-        private readonly IMapper _mapper;
-
-        public CategoriaController(ICategoriaService categoriaService, IMapper mapper)
+        public CategoriaController(ICategoriaService categoriaService)
         {
             _categoriaService = categoriaService;
-            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CategoriaDTO>>> Get()
+        public async Task<ActionResult<IEnumerable<CategoriaResponse>>> Get()
         {
             var categorias = await _categoriaService.GetAll();
+
             return Ok(categorias);
 
         }
@@ -40,9 +36,7 @@ namespace Smart_Mind.API.Controllers
                 return NotFound();
             }
 
-            var response = _mapper.Map<CategoriaResponse>(categoria);
-
-            return Ok(response);
+            return Ok(categoria);
         }
 
         [HttpGet]
@@ -51,9 +45,7 @@ namespace Smart_Mind.API.Controllers
         {
             var categorias = await _categoriaService.GetCategoriasWithMaterias();
 
-            var response = _mapper.Map<IEnumerable<CategoriaResponse>>(categorias);
-
-            return Ok(response);
+            return Ok(categorias);
         }
 
         [HttpPost]
@@ -64,29 +56,27 @@ namespace Smart_Mind.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            var categoriaDto = _mapper.Map<CategoriaDTO>(request);  
-
-            await _categoriaService.Add(categoriaDto);
+            await _categoriaService.Add(request);
 
             return new CreatedAtRouteResult("GetCategoria",
-                new { id = categoriaDto.Id }, categoriaDto);
+                new { id = request.Id }, request);
         }
 
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] CategoriaDTO categoriaDto)
+        public async Task<ActionResult> Put(int id, [FromBody] CategoriaRequest request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            if (id != categoriaDto.Id)
+            if (id != request.Id)
             {
                 return BadRequest();
             }
-            await _categoriaService.Update(categoriaDto);
+            await _categoriaService.Update(request);
 
-            return Ok(categoriaDto);
+            return Ok(request);
         }
 
         [HttpDelete("{id}")]

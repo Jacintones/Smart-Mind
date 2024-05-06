@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
 using Smart_Mind.Domain.Entities;
 using Smart_Mind.Domain.Interfaces;
@@ -18,27 +20,27 @@ namespace Smart_Mind.Application.Services
             _mapper = mapper;
         }
 
-        public async Task Add(MateriaDTO materiaDTO)
+        public async Task Add(MateriaRequest request)
         {
-            var materia = _mapper.Map<Materia>(materiaDTO);
+            var materia = _mapper.Map<Materia>(request);
 
             await _materiaRepository.Create(materia);
 
-            materiaDTO.Id = materia.Id;
+            request.Id = materia.Id;
         }
 
-        public async Task<IEnumerable<MateriaDTO>> GetAll()
+        public async Task<IEnumerable<MateriaResponse>> GetAll()
         {
             var materias = await _materiaRepository.GetAll();
 
-            return _mapper.Map<IEnumerable<MateriaDTO>>(materias);
+            return _mapper.Map<IEnumerable<MateriaResponse>>(materias);
         }
 
-        public async Task<MateriaDTO> GetById(int id)
+        public async Task<MateriaResponse> GetById(int id)
         {
             var materia = await _materiaRepository.GetById(id);
 
-            return _mapper.Map<MateriaDTO>(materia);
+            return _mapper.Map<MateriaResponse>(materia);
         }
 
         public async Task Remove(int id)
@@ -48,9 +50,9 @@ namespace Smart_Mind.Application.Services
             await _materiaRepository.Delete(materia);
         }
 
-        public async Task Update(MateriaDTO materiaDTO)
+        public async Task Update(MateriaRequest request)
         {
-            var materia = _mapper.Map<Materia>(materiaDTO);
+            var materia = _mapper.Map<Materia>(request);
 
             await _materiaRepository.Update(materia);
         }

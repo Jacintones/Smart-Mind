@@ -3,16 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.api\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|solutionrelative:smart-mind.api\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.api\\controllers\\questaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|solutionrelative:smart-mind.api\\controllers\\questaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\services\\testeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\services\\testeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\request\\testerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\request\\testerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\mappings\\domaintodtoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\mappings\\domaintodtoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\response\\testeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\response\\testeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\interfaces\\itesteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\interfaces\\itesteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\response\\assuntoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\response\\assuntoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.api\\controllers\\assuntocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|solutionrelative:smart-mind.api\\controllers\\assuntocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\services\\assuntoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\services\\assuntoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\services\\questaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\services\\questaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\interfaces\\iquestaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\interfaces\\iquestaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\response\\questaoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\response\\questaoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\request\\questaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\request\\questaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\response\\materiaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\response\\materiaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\request\\materiarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\request\\materiarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|solutionrelative:smart-mind.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.api\\controllers\\assuntocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|solutionrelative:smart-mind.api\\controllers\\assuntocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.api\\controllers\\materiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|solutionrelative:smart-mind.api\\controllers\\materiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679FC652-CA93-47D2-8F04-17A59586DAB5}|Smart-Mind.API\\Smart-Mind.API.csproj|solutionrelative:smart-mind.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\request\\assuntorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\request\\assuntorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\interfaces\\iassuntoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\interfaces\\iassuntoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\request\\categoriarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\request\\categoriarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\dtos\\response\\categoriaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\dtos\\response\\categoriaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\services\\materiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\services\\materiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|c:\\users\\thiag\\onedrive\\documentos\\github\\smart-mind\\smart-mind.application\\interfaces\\imateriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}|Smart-Mind.Application\\Smart-Mind.Application.csproj|solutionrelative:smart-mind.application\\interfaces\\imateriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +118,365 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TesteService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\TesteService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Services\\TesteService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\TesteService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Services\\TesteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:54:52.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITesteService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\ITesteService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Interfaces\\ITesteService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\ITesteService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Interfaces\\ITesteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:53:23.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TesteResponse.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\TesteResponse.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Response\\TesteResponse.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\TesteResponse.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Response\\TesteResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:49:00.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MateriaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\MateriaRequest.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Request\\MateriaRequest.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\MateriaRequest.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Request\\MateriaRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:47:55.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DomainToDTOProfile.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Mappings\\DomainToDTOProfile.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Mappings\\DomainToDTOProfile.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Mappings\\DomainToDTOProfile.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Mappings\\DomainToDTOProfile.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:50:01.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuestaoController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\QuestaoController.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.API\\Controllers\\QuestaoController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\QuestaoController.cs",
+              "RelativeToolTip": "Smart-Mind.API\\Controllers\\QuestaoController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:43:39.09Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TesteController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\TesteController.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.API\\Controllers\\TesteController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\TesteController.cs",
+              "RelativeToolTip": "Smart-Mind.API\\Controllers\\TesteController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:56:28.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TesteRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\TesteRequest.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Request\\TesteRequest.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\TesteRequest.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Request\\TesteRequest.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:55:40.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssuntoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\AssuntoResponse.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Response\\AssuntoResponse.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\AssuntoResponse.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Response\\AssuntoResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:24:06.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssuntoService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\AssuntoService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Services\\AssuntoService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\AssuntoService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Services\\AssuntoService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:23:09.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssuntoController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\AssuntoController.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.API\\Controllers\\AssuntoController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\AssuntoController.cs",
+              "RelativeToolTip": "Smart-Mind.API\\Controllers\\AssuntoController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwBwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T03:03:51.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MateriaController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\MateriaController.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.API\\Controllers\\MateriaController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\MateriaController.cs",
+              "RelativeToolTip": "Smart-Mind.API\\Controllers\\MateriaController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:46:58.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuestaoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\QuestaoRequest.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Request\\QuestaoRequest.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\QuestaoRequest.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Request\\QuestaoRequest.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwCEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:42:01.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuestaoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\QuestaoResponse.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Response\\QuestaoResponse.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\QuestaoResponse.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Response\\QuestaoResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:42:17.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IQuestaoService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\IQuestaoService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Interfaces\\IQuestaoService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\IQuestaoService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Interfaces\\IQuestaoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:42:23.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "QuestaoService.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\QuestaoService.cs",
               "RelativeDocumentMoniker": "Smart-Mind.Application\\Services\\QuestaoService.cs",
               "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\QuestaoService.cs",
               "RelativeToolTip": "Smart-Mind.Application\\Services\\QuestaoService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBEAAAAdAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T03:04:28.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
+              "Title": "MateriaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\MateriaResponse.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Response\\MateriaResponse.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\MateriaResponse.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Response\\MateriaResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:55:47.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssuntoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\AssuntoRequest.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Request\\AssuntoRequest.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\AssuntoRequest.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Request\\AssuntoRequest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T03:17:42.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "Smart-Mind.API\\Controllers\\CategoriaController.cs",
               "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "Smart-Mind.API\\Controllers\\CategoriaController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwAEAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T03:03:52.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssuntoController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\AssuntoController.cs",
-              "RelativeDocumentMoniker": "Smart-Mind.API\\Controllers\\AssuntoController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\AssuntoController.cs",
-              "RelativeToolTip": "Smart-Mind.API\\Controllers\\AssuntoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 21,
+              "Title": "CategoriaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\CategoriaRequest.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Request\\CategoriaRequest.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Request\\CategoriaRequest.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Request\\CategoriaRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T03:03:51.424Z",
+              "WhenOpened": "2024-05-06T03:18:43.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Smart-Mind.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:33:07.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAssuntoService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\IAssuntoService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Interfaces\\IAssuntoService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\IAssuntoService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Interfaces\\IAssuntoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T03:17:56.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Services\\CategoriaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T03:18:20.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoriaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\CategoriaResponse.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\DTOs\\Response\\CategoriaResponse.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\DTOs\\Response\\CategoriaResponse.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\DTOs\\Response\\CategoriaResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:03:49.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\ICategoriaService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Interfaces\\ICategoriaService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\ICategoriaService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Interfaces\\ICategoriaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T03:17:58.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IMateriaService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\IMateriaService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Interfaces\\IMateriaService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Interfaces\\IMateriaService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Interfaces\\IMateriaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:48:54.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MateriaService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\MateriaService.cs",
+              "RelativeDocumentMoniker": "Smart-Mind.Application\\Services\\MateriaService.cs",
+              "ToolTip": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.Application\\Services\\MateriaService.cs",
+              "RelativeToolTip": "Smart-Mind.Application\\Services\\MateriaService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:49:06.359Z",
               "EditorCaption": ""
             }
           ]

@@ -1,9 +1,8 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
-using Smart_Mind.Application.DTOs;
+﻿using Microsoft.AspNetCore.Mvc;
 using Smart_Mind.Application.DTOs.Request;
 using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
+using Smart_Mind.Domain.Entities;
 
 namespace Smart_Mind.API.Controllers
 {
@@ -13,16 +12,13 @@ namespace Smart_Mind.API.Controllers
     {
         private readonly ITesteService _testeService;
 
-        private readonly IMapper _mapper;
-
-        public TesteController(ITesteService testeService, IMapper mapper)
+        public TesteController(ITesteService testeService)
         {
             _testeService = testeService;
-            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TesteDTO>>> Get()
+        public async Task<ActionResult<IEnumerable<TesteResponse>>> Get()
         {
             var testes = await _testeService.GetAll();
             return Ok(testes);
@@ -39,9 +35,7 @@ namespace Smart_Mind.API.Controllers
                 return NotFound();
             }
 
-            var response = _mapper.Map<TesteResponse>(teste);
-
-            return Ok(response);
+            return Ok(teste);
         }
 
         [HttpPost]
@@ -52,44 +46,42 @@ namespace Smart_Mind.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            var dto = _mapper.Map<TesteDTO>(request);
-
-            await _testeService.Add(dto);
+            await _testeService.Add(request);
 
             return new CreatedAtRouteResult("GetTeste",
-                new { id = dto.Id }, dto);
+                new { id = request.Id }, request);
         }
 
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] TesteDTO testeDTO)
+        public async Task<ActionResult> Put(int id, [FromBody] TesteRequest request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            if (id != testeDTO.Id)
+            if (id != request.Id)
             {
                 return BadRequest();
             }
-            await _testeService.Update(testeDTO);
+            await _testeService.Update(request);
 
-            return Ok(testeDTO);
+            return Ok(request);
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<TesteDTO>> Delete(int id)
+        public async Task<ActionResult<Teste>> Delete(int id)
         {
-            var testeDTO = await _testeService.GetById(id);
+            var teste = await _testeService.GetById(id);
 
-            if (testeDTO == null)
+            if (teste == null)
             {
                 return NotFound();
             }
 
             await _testeService.Remove(id);
 
-            return Ok(testeDTO);
+            return Ok(teste);
         }
     }
 }

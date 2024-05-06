@@ -1,16 +1,12 @@
-﻿using Smart_Mind.Domain.Entities;
-using System;
-using System.Collections.Generic;
+﻿using Smart_Mind.Application.DTOs.Response;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace Smart_Mind.Application.DTOs.Request
 {
     public class MateriaRequest
     {
+        public int Id { get; set; }
 
         [Required]
         public string Nome { get; set; } = null!;
@@ -21,5 +17,7 @@ namespace Smart_Mind.Application.DTOs.Request
         [Required]
         public int CategoriaId { get; set; }
 
+        [JsonIgnore]
+        public ICollection<AssuntoResponse> Assuntos { get; set; } = [];
     }
 }

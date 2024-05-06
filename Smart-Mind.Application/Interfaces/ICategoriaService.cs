@@ -1,4 +1,6 @@
 ﻿using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,15 +11,15 @@ namespace Smart_Mind.Application.Interfaces
 {
     public interface ICategoriaService
     {
-        Task<IEnumerable<CategoriaDTO>> GetAll();
+        Task<IEnumerable<CategoriaResponse>> GetAll();
 
-        Task<CategoriaDTO> GetById(int id);
+        Task<CategoriaResponse> GetById(int id);
 
-        Task<ICollection<CategoriaDTO>> GetCategoriasWithMaterias();
+        Task<ICollection<CategoriaResponse>> GetCategoriasWithMaterias();
 
-        Task Add(CategoriaDTO categoriaDTO);
+        Task Add(CategoriaRequest request);
 
-        Task Update(CategoriaDTO categoriaDTO);
+        Task Update(CategoriaRequest request);
 
         Task Remove(int id);
     }

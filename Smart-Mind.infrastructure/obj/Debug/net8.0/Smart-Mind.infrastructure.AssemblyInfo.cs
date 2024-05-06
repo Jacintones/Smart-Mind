@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart-Mind.infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f448a94235c3267d974cbc83064ab9997ecb5dea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a61b8ff0e43496175cc7d2188c225a6bc20275d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart-Mind.infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart-Mind.infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

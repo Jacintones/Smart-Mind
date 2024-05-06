@@ -5,6 +5,8 @@ namespace Smart_Mind.Application.DTOs.Response
 {
     public class AssuntoResponse
     {
+        public int Id { get; set; }
+
         public string Nome { get; set; } = null!;
 
         public string VideoAulaUrl { get; set; } = null!;
@@ -16,6 +18,6 @@ namespace Smart_Mind.Application.DTOs.Response
         [JsonIgnore]
         public Materia? Materia { get; set; }
 
-        public ICollection<QuestaoDTO> Questoes { get; set; } = null!;
+        public ICollection<QuestaoResponse> Questoes { get; set; } = null!;
     }
 }

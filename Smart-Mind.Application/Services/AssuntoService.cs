@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
 using Smart_Mind.Domain.Entities;
 using Smart_Mind.Domain.Interfaces;
@@ -19,30 +20,30 @@ namespace Smart_Mind.Application.Services
             _mapper = mapper;
         }
 
-        public async Task Add(AssuntoDTO assuntoDTO)
+        public async Task Add(AssuntoRequest request)
         {
             //Converto o dto para o formato padrão de dados
-            var assunto = _mapper.Map<Assunto>(assuntoDTO); 
+            var assunto = _mapper.Map<Assunto>(request); 
 
             //Chamo o método do repositório que cria a instância
             await _assuntoRepository.Create(assunto);
 
             //Seto o id afim de informar no response
-            assuntoDTO.Id = assunto.Id;
+            request.Id = assunto.Id;
         }
 
-        public async Task<IEnumerable<AssuntoDTO>> GetAll()
+        public async Task<IEnumerable<AssuntoResponse>> GetAll()
         {
             var assuntos = await _assuntoRepository.GetAll();
 
-            return _mapper.Map<IEnumerable<AssuntoDTO>>(assuntos);
+            return _mapper.Map<IEnumerable<AssuntoResponse>>(assuntos);
         }
 
-        public async Task<AssuntoDTO> GetById(int id)
+        public async Task<AssuntoResponse> GetById(int id)
         {
             var assunto = await _assuntoRepository.GetById(id);
 
-            return _mapper.Map<AssuntoDTO>(assunto);
+            return _mapper.Map<AssuntoResponse>(assunto);
         }
 
         public async Task Remove(int id)
@@ -52,9 +53,9 @@ namespace Smart_Mind.Application.Services
             await _assuntoRepository.Delete(assunto);
         }
 
-        public async Task Update(AssuntoDTO assuntoDTO)
+        public async Task Update(AssuntoRequest request)
         {
-            var assunto = _mapper.Map<Assunto>(assuntoDTO);
+            var assunto = _mapper.Map<Assunto>(request);
 
             await _assuntoRepository.Update(assunto);
         }

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using Smart_Mind.Application.DTOs;
+using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Application.DTOs.Response;
 using Smart_Mind.Application.Interfaces;
 using Smart_Mind.Domain.Entities;
 using Smart_Mind.Domain.Interfaces;
@@ -18,27 +19,27 @@ namespace Smart_Mind.Application.Services
             _mapper = mapper;
         }
 
-        public async Task Add(QuestaoDTO questaoDTO)
+        public async Task Add(QuestaoRequest request)
         {
-            var questao = _mapper.Map<Questao>(questaoDTO);
+            var questao = _mapper.Map<Questao>(request);
 
             await _questaoRepository.Create(questao);
 
-            questaoDTO.Id = questao.Id;
+            request.Id = questao.Id;
         }
 
-        public async Task<IEnumerable<QuestaoDTO>> GetAll()
+        public async Task<IEnumerable<QuestaoResponse>> GetAll()
         {
             var questoes = await _questaoRepository.GetAll();
 
-            return _mapper.Map<IEnumerable<QuestaoDTO>>(questoes);
+            return _mapper.Map<IEnumerable<QuestaoResponse>>(questoes);
         }
 
-        public async Task<QuestaoDTO> GetById(int id)
+        public async Task<QuestaoResponse> GetById(int id)
         {
             var questao = await _questaoRepository.GetById(id);
 
-            return _mapper.Map<QuestaoDTO>(questao);
+            return _mapper.Map<QuestaoResponse>(questao);
         }
 
         public async Task Remove(int id)
@@ -48,9 +49,9 @@ namespace Smart_Mind.Application.Services
             await _questaoRepository.Delete(questao);
         }
 
-        public async Task Update(QuestaoDTO questaoDTO)
+        public async Task Update(QuestaoRequest request)
         {
-            var questao = _mapper.Map<Questao>(questaoDTO);
+            var questao = _mapper.Map<Questao>(request);
 
             await _questaoRepository.Update(questao);
         }
