@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "ZLXQWfD5zeg2Pce4OKXdJPNZogjz9pKZWoPlorV49hU=",
+  "Hash": "Wt7kdqQiySGPyAfIbTAB1danQf1zMiVcMLbabopk6Yw=",
   "Source": "Smart-Mind.API",
   "BasePath": "_content/Smart-Mind.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Smart-Mind.API\\wwwroot",
+      "Source": "Smart-Mind.API",
+      "ContentRoot": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\wwwroot\\",
+      "BasePath": "_content/Smart-Mind.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\wwwroot\\Imagens\\be8fa5a7e1ac77901917bc682f50d6491d498075r1-1080-757v2_hq.jpg",
+      "SourceId": "Smart-Mind.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\wwwroot\\",
+      "BasePath": "_content/Smart-Mind.API",
+      "RelativePath": "Imagens/be8fa5a7e1ac77901917bc682f50d6491d498075r1-1080-757v2_hq.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\be8fa5a7e1ac77901917bc682f50d6491d498075r1-1080-757v2_hq.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\wwwroot\\Imagens\\Eu.jpg",
+      "SourceId": "Smart-Mind.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\wwwroot\\",
+      "BasePath": "_content/Smart-Mind.API",
+      "RelativePath": "Imagens/Eu.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\Eu.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\wwwroot\\Imagens\\yujiro.jpg",
+      "SourceId": "Smart-Mind.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thiag\\OneDrive\\Documentos\\GitHub\\Smart-Mind\\Smart-Mind.API\\wwwroot\\",
+      "BasePath": "_content/Smart-Mind.API",
+      "RelativePath": "Imagens/yujiro.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\yujiro.jpg"
+    }
+  ]
 }

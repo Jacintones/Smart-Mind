@@ -2,16 +2,17 @@ import { useEffect, useState } from "react";
 import "./Css/TelaQuestoes.css";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import MenuAppBar from "../Component/headers/MenuAppBar";
 
 interface Questao {
-  questaoId: number
+  id: number
   enunciado: string
   alternativaCorreta: string
   alternativaErrada1: string
   alternativaErrada2: string
   alternativaErrada3: string
   alternativaErrada4: string
-  dificuldade: number
+  dificuldade: string
   alternativasEmbaralhadas: string[]
 }
 
@@ -21,7 +22,7 @@ const TelaQuestoes = () => {
   const { id } = useParams()
   const [nota, setNota] = useState(0)
 
-  const url = `http://localhost:5087/api/Assunto/${id}`
+  const url = `https://localhost:7019/api/Assunto/${id}`
 
   const getQuestoes = async () => {
     const response = await axios.get(url)
@@ -64,7 +65,7 @@ const TelaQuestoes = () => {
     let notaAluno = 0
 
     questoes.forEach(questao => {
-      const respostaSelecionada = respostas[questao.questaoId]
+      const respostaSelecionada = respostas[questao.id]
       if (respostaSelecionada === questao.alternativaCorreta) {
         notaAluno += 1
       }
@@ -76,11 +77,14 @@ const TelaQuestoes = () => {
   }
 
   return (
+    <div>
+      <MenuAppBar />
     <div className="container-fazer-questoes">
+      
       <h1>AVALIAÇÃO</h1>
       <ul>
         {questoes.map((questao: Questao) => (
-          <div className="container-questoes" key={questao.questaoId}>
+          <div className="container-questoes" key={questao.id}>
             <li>
               <h3>{questao.enunciado}</h3>
               <div className="alternativas-container">
@@ -89,8 +93,8 @@ const TelaQuestoes = () => {
                     <input
                       type="radio"
                       value={alternativa}
-                      checked={respostas[questao.questaoId] === alternativa}
-                      onChange={() => handleSelecaoAlternativa(questao.questaoId, alternativa)}
+                      checked={respostas[questao.id] === alternativa}
+                      onChange={() => handleSelecaoAlternativa(questao.id, alternativa)}
                     />
                     {String.fromCharCode(65 + index)}) {alternativa}
                   </label>
@@ -102,6 +106,7 @@ const TelaQuestoes = () => {
       </ul>
       <button onClick={calcularNota}>Enviar</button>
       <p>{nota}</p>
+    </div>
     </div>
   )
 }

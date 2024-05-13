@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart-Mind.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a61b8ff0e43496175cc7d2188c225a6bc20275d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6e49e116a04bbffe51fe4b48a8e2ddf84689ef1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart-Mind.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart-Mind.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

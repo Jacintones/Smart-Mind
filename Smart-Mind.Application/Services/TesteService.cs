@@ -28,7 +28,6 @@ namespace Smart_Mind.Application.Services
 
             foreach (int questaoId in request.QuestoesId)
             {
-                // Aqui você pode buscar a questão no banco de dados usando o ID
                 var questao = await _questaoRepository.GetById(questaoId);
 
                 if (questao != null)

@@ -1,26 +1,29 @@
 import { useEffect, useState } from "react"
-import BarraDePesquisa from "../Component/BarraDePesquisa.tsx"
+import MenuAppBar from "../Component/headers/MenuAppBar"
 import "./Css/TelaInicial.css"
 import axios from "axios"
-import { useNavigate } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 
 interface Materia {
-    materiaId: number
+    id: number
     nome : string
     imagemUrl : string
 }
 
 interface Categoria {
-    categoriaId: number
+    id: number
     nome : string
     materias : Materia[]
 }
 
 const TelaInicial = () => {
+    const location = useLocation()
     const [categorias, setCategorias] = useState<Categoria[]>([])
     const navigate = useNavigate();
+    const user =  location.state ? location.state.user : null
+    const token =  location.state ? location.state.token : null
 
-    const urlCategoria = "http://localhost:5087/api/Categoria/CategoriaComMateria";
+    const urlCategoria = "https://localhost:7019/api/Categoria/CategoriaComMateria";
 
     const getMaterias = async () => {
         try {
@@ -28,7 +31,6 @@ const TelaInicial = () => {
             
             //Seta as categorias
             setCategorias(response.data);
-            console.log(response.data)
 
         } catch (error) {
             console.error("Erro ao obter as categorias e matérias:", error)
@@ -40,23 +42,35 @@ const TelaInicial = () => {
       }, [])
       
       const handleMateriaClick = (materiaId: number) => {
-        navigate(`/Categoria/${materiaId}`); // Navega para a página da matéria com o ID da matéria
+        navigate(`/Categoria/${materiaId}`, {
+            state: {
+                token : token,
+                user: user
+              }
+        })
+    }
+
+    const handleAreaUsuario = () => {
+        navigate(`/User/${user.id}`, {
+            state: {
+                token : token,
+                user: user
+              }
+        })
     }
 
       return (
         <div>
-            <div className='barra-tela-inicial'>
-                <BarraDePesquisa />
-            </div>
+            <MenuAppBar />
             <div className="container-todas-materias">
                 {categorias.map(categoria => (
-                    <div key={categoria.categoriaId} className="categoria-container">
-                        <h2>{categoria.nome}</h2>
+                    <div key={categoria.id} className="categoria-container">
+                        <h1 className="h1-categoria">{categoria.nome}</h1>
                         <div className="materias-container">
                             {categoria.materias.map(materia => (
-                                <div key={materia.materiaId} className="container-materia-inicial" onClick={() => handleMateriaClick(materia.materiaId)}>
+                                <div key={materia.id} className="container-materia-inicial" onClick={() => handleMateriaClick(materia.id)}>
                                     <img src={materia.imagemUrl} alt={materia.nome} />
-                                    <p>{materia.nome}</p>
+                                    <h2>{materia.nome}</h2>
                                 </div>
                             ))}
                         </div>

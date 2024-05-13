@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.Extensions.Hosting;
 using Smart_Mind.Domain.Entities;
+using System.Reflection.Emit;
 
 namespace Smart_Mind.infrastructure.EntitiesConfigurations
 {
@@ -14,8 +15,6 @@ namespace Smart_Mind.infrastructure.EntitiesConfigurations
             builder.Property(x => x.DataDaRealizacao).IsRequired();
 
             builder.HasOne(e => e.Usuario).WithMany(e => e.Testes).HasForeignKey(e => e.UsuarioId);
-
-            builder.HasMany(e => e.Questoes).WithMany(e => e.Testes);
 
         }
     }

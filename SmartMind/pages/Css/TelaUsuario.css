@@ -1,0 +1,42 @@
+
+.container-user-infos{
+    background-color: #3C096C;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container-principal-usuario {
+    display: flex;
+  }
+  
+  .container-user-infos,
+  .container-meus-testes {
+    flex: 1; 
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+
+  .container-meus-testes{
+    background-color: #3C096C;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    list-style: none;
+    /* Adicionando display: flex e ajustando a direção do flex */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-direction: column;
+    align-items: center; /* Centraliza verticalmente */
+  }
+
+  .container-teste-feitos{
+    background-color: #5A189A;
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  .container-teste-feitos:hover{
+    background-color: #7B2CBF;
+    cursor: pointer;
+  }

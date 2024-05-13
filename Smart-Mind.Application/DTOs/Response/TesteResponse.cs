@@ -1,4 +1,5 @@
 ﻿
+using Smart_Mind.Application.DTOs.Request;
 using Smart_Mind.Domain.Entities;
 using System.ComponentModel.DataAnnotations;
 
@@ -18,6 +19,8 @@ namespace Smart_Mind.Application.DTOs.Response
 
         public int UsuarioId { get; set; }
 
-        public ICollection<QuestaoResponse> Questoes { get; set; } = null!;
+        public ICollection<RespostaUsuarioDTO> RespostaUsuarios { get; set; } = [];
+
+        public ICollection<QuestaoResponse> Questoes { get; set; } =  [];
     }
 }

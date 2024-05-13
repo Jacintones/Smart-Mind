@@ -16,6 +16,8 @@ namespace Smart_Mind.Application.Mappings
     {
         public DomainToDTOProfile()
         {
+            CreateMap<Alternativa, AlternativaDTO>().ReverseMap();
+
             CreateMap<Assunto, AssuntoRequest >().ReverseMap();
             CreateMap<Assunto, AssuntoResponse>().ReverseMap();
 
@@ -30,6 +32,13 @@ namespace Smart_Mind.Application.Mappings
 
             CreateMap<Teste, TesteResponse>().ReverseMap();
             CreateMap<Teste, TesteRequest>().ReverseMap();
+
+            CreateMap<RespostaUsuario, RespostaUsuarioDTO>().ReverseMap();
+
+            CreateMap<ExplicacaoAssunto, ExplicacaoAssuntoRequest>().ReverseMap();
+            CreateMap<ExplicacaoAssunto, ExplicacaoAssuntoResponse>().ReverseMap();
+
+            CreateMap<Explicacao, ExplicacaoDTO>().ReverseMap();    
 
             CreateMap<Usuario, LoginModel>().ReverseMap();
             CreateMap<Usuario, RegisterModel>().ReverseMap();

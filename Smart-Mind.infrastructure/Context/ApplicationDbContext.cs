@@ -25,7 +25,13 @@ namespace Smart_Mind.infrastructure.Context
 
         public DbSet<Questao> Questoes { get; set; }
 
+        public DbSet<Alternativa> Alternativas { get; set; }
+
+        public DbSet<RespostaUsuario> RespostasUsuarios { get; set; }
+
         public DbSet<Teste> Testes { get; set; }
+
+        public DbSet<ExplicacaoAssunto> ExplicacaoAssuntos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

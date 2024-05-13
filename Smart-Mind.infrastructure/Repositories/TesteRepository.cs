@@ -34,14 +34,19 @@ namespace Smart_Mind.infrastructure.Repositories
 
         public async Task<ICollection<Teste>> GetAll()
         {
-            var testes = await _context.Testes.ToListAsync();
+            var testes = await _context.Testes.AsNoTracking().Include(q => q.Questoes).Include(r => r.RespostaUsuarios).ToListAsync();
 
             return testes;
         }
 
         public async Task<Teste> GetById(int id)
         {
-            return await _context.Testes.Include(q => q.Questoes).FirstOrDefaultAsync(t => t.Id == id);
+            return await _context.Testes
+                .Include(t => t.Questoes) // Inclui as questões
+                    .ThenInclude(q => q.Alternativas) // Inclui as alternativas das questões
+                .Include(t => t.RespostaUsuarios) // Inclui as respostas dos usuários
+                .FirstOrDefaultAsync(t => t.Id == id);
+
         }
 
         public async Task<ICollection<Teste>> GetTesteWithQuestoes()

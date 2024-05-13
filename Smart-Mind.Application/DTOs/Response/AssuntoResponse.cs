@@ -11,8 +11,6 @@ namespace Smart_Mind.Application.DTOs.Response
 
         public string VideoAulaUrl { get; set; } = null!;
 
-        public string ImagemUrl { get; set; } = null!;
-
         public int MateriaId { get; set; }
 
         [JsonIgnore]

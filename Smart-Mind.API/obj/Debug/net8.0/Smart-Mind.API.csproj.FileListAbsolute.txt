@@ -549,3 +549,4 @@ C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.API\obj\Debug\ne
 C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.API\obj\Debug\net8.0\Smart-Mind.API.pdb
 C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.API\obj\Debug\net8.0\Smart-Mind.API.genruntimeconfig.cache
 C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.API\obj\Debug\net8.0\ref\Smart-Mind.API.dll
+C:\Users\thiag\OneDrive\Documentos\GitHub\Smart-Mind\Smart-Mind.API\bin\Debug\net8.0\Smart-Mind.API.staticwebassets.runtime.json

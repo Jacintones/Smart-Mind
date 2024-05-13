@@ -15,5 +15,7 @@ namespace Smart_Mind.Domain.Interfaces
 
         Task<Usuario> GetUserByLogin(string login);
 
+        Task<Usuario> Update(Usuario usuario);
+
     }
 }

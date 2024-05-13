@@ -25,7 +25,16 @@ namespace Smart_Mind.Application.Services
 
             await _questaoRepository.Create(questao);
 
+            request.Explicacao.QuestaoId = questao.Id;
+            request.Explicacao.Id = questao.Explicacao.Id; 
             request.Id = questao.Id;
+
+            request.Alternativas.Zip(questao.Alternativas, (alternativaRequest, alternativa) =>
+            {
+                alternativaRequest.Id = alternativa.Id;
+                return (alternativaRequest, alternativa);
+            }).ToList();
+
         }
 
         public async Task<IEnumerable<QuestaoResponse>> GetAll()

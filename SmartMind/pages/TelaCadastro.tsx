@@ -3,9 +3,9 @@ import "./Css/TelaCadastro.css"
 import axios from 'axios';
 
 interface Usuario {
-    userId: string;
+    id: string;
     email: string;
-    userName: string;
+    login: string;
     nome: string;
     sobrenome: string;
     nomeCompleto: string;
@@ -16,9 +16,9 @@ interface Usuario {
 
 const TelaCadastro = () => {
     const [usuario, setUsuario] = useState<Usuario>({
-        userId: '',
+        id: '',
         email: '',
-        userName: '',
+        login: '',
         nome: '',
         sobrenome: '',
         nomeCompleto: '',
@@ -50,7 +50,7 @@ const TelaCadastro = () => {
     const handleSubmit = async () => {
         try {
             const response = await axios.post(url, {
-                userName: usuario.userName,
+                login: usuario.login,
                 nome: usuario.nome,
                 sobrenome: usuario.sobrenome,
                 email: usuario.email,
@@ -90,7 +90,7 @@ const TelaCadastro = () => {
                     </div>
                     <div className='container-infos-registro'>
                         <h2>Nome Usuário</h2>
-                        <input type="text" name="userName" value={usuario.userName} onChange={handleChange} />
+                        <input type="text" name="userName" value={usuario.login} onChange={handleChange} />
                     </div>
                     <div className='container-infos-registro'>
                         <h2>Idade</h2>

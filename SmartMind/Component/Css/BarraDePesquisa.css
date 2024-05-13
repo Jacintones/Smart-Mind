@@ -11,6 +11,8 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    cursor: pointer;
+
 
 }
 
@@ -21,11 +23,13 @@
     margin-right: 920px;
     margin-left: 20px;
 }
-
+.container-botoes-pesquisa {
+    margin-left: 800px;
+}
 .container-botoes-pesquisa button{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
     width: 150px;
     height: 40px;
     background-color: #5A189A;
@@ -33,6 +37,29 @@
     border: 0px;
     font-weight: bold;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
+.barra-user-logado {
+    margin-left: 1100px; /* Envia o conteúdo o mais para a direita possível */
+}
+
+.area-botao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: #5A189A;
+    color: #FCFCFC;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.h2-titulo-smart{
+    margin-left: 20px;
+}

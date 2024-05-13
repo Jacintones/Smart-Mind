@@ -63,6 +63,9 @@ namespace Smart_Mind.CrossCutting.IoC
             services.AddScoped<IQuestaoRepository, QuestaoRepository>();
             services.AddScoped<IQuestaoService, QuestaoService>();
 
+            services.AddScoped<IExplicacaoAssuntoRepositorio, ExplicacaoAssuntoRepositorio>();
+            services.AddScoped<IExplicacaoAssuntoService,  ExplicacaoAssuntoService>();
+
             services.AddScoped<ITesteRepository, TesteRepository>();
             services.AddScoped<ITesteService, TesteService>();
 

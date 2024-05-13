@@ -5,6 +5,7 @@ import TelaQuestoes from '../pages/TelaQuestoes.tsx';
 import TelaCadastro from '../pages/TelaCadastro.tsx';
 import TelaInicial from '../pages/TelaInicial.tsx';
 import TelaCategoria from '../pages/TelaCategoria.tsx';
+import TelaUsuario from '../pages/TelaUsuario.tsx';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/Cadastro' element={<TelaCadastro />}/>
           <Route path="/" element={<TelaInicial />}/>
           <Route path='/categoria/:id' element={<TelaCategoria />} />
+          <Route path='/User/:id' element={<TelaUsuario />} />
         </Routes>
       </BrowserRouter>
     </>

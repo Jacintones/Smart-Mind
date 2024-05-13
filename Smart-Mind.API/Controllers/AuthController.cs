@@ -1,11 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Smart_Mind.Application.DTOs.Authentication;
 using Smart_Mind.Application.Interfaces;
-using Smart_Mind.Domain.Entities;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
+
 
 namespace Smart_Mind.API.Controllers
 {
@@ -15,9 +11,13 @@ namespace Smart_Mind.API.Controllers
     {
         private readonly IUsuarioService _usuarioService;
 
-        public AuthController(IUsuarioService usuarioService)
+        private readonly string _imagensPath;
+
+        public AuthController(IUsuarioService usuarioService, IConfiguration configuration)
         {
             _usuarioService = usuarioService;
+            _imagensPath = configuration.GetValue<string>("Imagens");
+
         }
 
         [HttpPost]
@@ -44,6 +44,41 @@ namespace Smart_Mind.API.Controllers
             var user = await _usuarioService.GetUserByEmail(email);
 
             return Ok(user);
+        }
+
+        [HttpPut]
+        [Route("upload/{email}")]
+        public async Task<IActionResult> UploadImagem(IFormFile imagem, string email)
+        {
+            try
+            {
+                var caminho = await _usuarioService.UploadImagemAsync(imagem, email);
+                return Ok($"Imagem enviada com sucesso! Caminho: {caminho}");
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao processar a imagem: {ex.Message}");
+            }
+        }
+
+        [HttpGet]
+        [Route("ObterImagem/{nome}")]
+        public IActionResult GetImagem(string nome)
+        {
+            var imagePath = Path.Combine(_imagensPath, nome);
+            if (System.IO.File.Exists(imagePath))
+            {
+                var image = System.IO.File.OpenRead(imagePath);
+                return File(image, "image/jpeg"); 
+            }
+            else
+            {
+                return NotFound();
+            }
         }
     }
 }

@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Smart_Mind.Application.DTOs.Authentication;
+using Smart_Mind.Application.DTOs.Request;
 using Smart_Mind.Application.Interfaces;
 using Smart_Mind.Domain.Entities;
 using Smart_Mind.Domain.Interfaces;
@@ -107,6 +109,43 @@ namespace Smart_Mind.Application.Services
 
             //Retorna o usuário, caso não exista, o repositório lidará com isso
             return usuario;
+        }
+
+        public async Task<string> UploadImagemAsync(IFormFile imagem, string email)
+        {
+            var usuario = await _repository.GetUserByEmail(email);
+
+            if (usuario != null)
+            {
+                if (imagem != null && imagem.Length > 0)
+                {
+                    var nomeArquivo = Path.GetFileName(imagem.FileName);
+                    var caminhoRelativo = Path.Combine("Imagens", nomeArquivo);
+                    var caminhoFisico = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", caminhoRelativo);
+
+                    using (var stream = new FileStream(caminhoFisico, FileMode.Create))
+                    {
+                        await imagem.CopyToAsync(stream);
+                    }
+
+                    // Atualizar a propriedade ImagemUrl do usuário
+                    usuario.ImagemUrl = nomeArquivo; 
+
+                    // Salvar as alterações no usuário
+                    await _repository.Update(usuario);
+
+                    // Retornar o caminho relativo da imagem
+                    return usuario.ImagemUrl;
+                }
+                throw new ArgumentException("Nenhuma imagem selecionada.");
+            }
+
+            throw new Exception("Usuário não encontrado.");
+        }
+
+        public async Task Update(Usuario usuario)
+        {
+           await _repository.Update(usuario);
         }
     }
 }

@@ -9,6 +9,8 @@ namespace Smart_Mind.Application.DTOs.Request
         public int Id { get; set; }
 
         [Required]
+        [MinLength(3)]
+        [MaxLength(50)]
         public string Nome { get; set; } = null!;
 
         [Required]

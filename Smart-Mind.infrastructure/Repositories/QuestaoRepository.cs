@@ -32,14 +32,17 @@ namespace Smart_Mind.infrastructure.Repositories
 
         public async Task<ICollection<Questao>> GetAll()
         {
-            var questoes = await _context.Questoes.ToListAsync();
+            var questoes = await _context.Questoes.Include(q => q.Alternativas).ToListAsync();
 
             return questoes;
         }
 
         public async Task<Questao> GetById(int id)
         {
-            return await _context.Questoes.FindAsync(id);
+            return await _context.Questoes
+                .Include(q => q.Alternativas)
+                .Include(q => q.Explicacao)
+                .FirstOrDefaultAsync(q => q.Id == id);
         }
 
         public async Task<Questao> Update(Questao questao)

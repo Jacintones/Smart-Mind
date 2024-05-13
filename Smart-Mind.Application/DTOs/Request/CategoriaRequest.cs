@@ -9,7 +9,7 @@ namespace Smart_Mind.Application.DTOs.Request
 
         [Required]
         [MinLength(3)]
-        [MaxLength(100)]
+        [MaxLength(50)]
         public string Nome { get; set; } = null!;
 
         [JsonIgnore]

@@ -2,6 +2,7 @@
 using Smart_Mind.Domain.Entities;
 using Smart_Mind.Domain.Interfaces;
 using Smart_Mind.infrastructure.Context;
+using Smart_Mind.infrastructure.Migrations;
 
 namespace Smart_Mind.infrastructure.Repositories
 {
@@ -20,7 +21,7 @@ namespace Smart_Mind.infrastructure.Repositories
             var usuario =  await _context.Usuarios.Include(u => u.Testes).FirstOrDefaultAsync(u => u.Email == email);
 
             //Retorna uma exceção caso não ache
-            return usuario ?? throw new ArgumentNullException($"Usuário com e-mail : {email} não existe");
+            return usuario;
         }
 
         public async Task<Usuario> GetUserByLogin(string login)
@@ -57,6 +58,15 @@ namespace Smart_Mind.infrastructure.Repositories
 
             //Retorna true
             return true;
+        }
+
+        public async Task<Usuario> Update(Usuario usuario)
+        {
+            _context.Usuarios.Update(usuario);
+
+            await _context.SaveChangesAsync();
+
+            return usuario;
         }
     }
 }

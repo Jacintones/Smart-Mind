@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart-Mind.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f448a94235c3267d974cbc83064ab9997ecb5dea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6e49e116a04bbffe51fe4b48a8e2ddf84689ef1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart-Mind.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart-Mind.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

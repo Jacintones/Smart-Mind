@@ -16,11 +16,6 @@ namespace Smart_Mind.infrastructure.EntitiesConfigurations
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Enunciado).IsRequired();
             builder.Property(x => x.AssuntoId).IsRequired();
-            builder.Property(x => x.AlternativaCorreta).IsRequired();
-            builder.Property(x => x.AlternativaErrada1).IsRequired();
-            builder.Property(x => x.AlternativaErrada2).IsRequired();
-            builder.Property(x => x.AlternativaErrada3).IsRequired();
-            builder.Property(x => x.AlternativaErrada4).IsRequired();
             builder.Property(x => x.Dificuldade).IsRequired();
 
             builder.HasOne(e => e.Assunto).WithMany(e => e.Questoes).HasForeignKey(e => e.AssuntoId);

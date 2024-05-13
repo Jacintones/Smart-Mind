@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart-Mind.Domain", "Smart-Mind.Domain\Smart-Mind.Domain.csproj", "{AF9E8D79-387B-439D-9C2C-BB3CA4CCA2F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart-Mind.Domain", "Smart-Mind.Domain\Smart-Mind.Domain.csproj", "{AF9E8D79-387B-439D-9C2C-BB3CA4CCA2F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart-Mind.Application", "Smart-Mind.Application\Smart-Mind.Application.csproj", "{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart-Mind.Application", "Smart-Mind.Application\Smart-Mind.Application.csproj", "{3ADD1397-0C0E-4EDC-8E6C-85F7BA9FDACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart-Mind.infrastructure", "Smart-Mind.infrastructure\Smart-Mind.infrastructure.csproj", "{F309946B-B58C-47D4-B5B6-2C37E8DC15F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart-Mind.infrastructure", "Smart-Mind.infrastructure\Smart-Mind.infrastructure.csproj", "{F309946B-B58C-47D4-B5B6-2C37E8DC15F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart-Mind.CrossCutting", "Smart-Mind.CrossCutting\Smart-Mind.CrossCutting.csproj", "{2BADBB9B-EE02-43A8-9224-C09A68CBB560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart-Mind.CrossCutting", "Smart-Mind.CrossCutting\Smart-Mind.CrossCutting.csproj", "{2BADBB9B-EE02-43A8-9224-C09A68CBB560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart-Mind.API", "Smart-Mind.API\Smart-Mind.API.csproj", "{679FC652-CA93-47D2-8F04-17A59586DAB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart-Mind.API", "Smart-Mind.API\Smart-Mind.API.csproj", "{679FC652-CA93-47D2-8F04-17A59586DAB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

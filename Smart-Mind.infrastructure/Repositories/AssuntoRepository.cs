@@ -34,28 +34,28 @@ namespace Smart_Mind.infrastructure.Repositories
         public async Task Delete(Assunto assunto)
         {
             _context.Assuntos.Remove(assunto);
-
             await _context.SaveChangesAsync();
         }
 
         public async Task<ICollection<Assunto>> GetAll()
-        {
+        {   
             var assuntos = await _context.Assuntos.ToListAsync();
-
             return assuntos;
         }
 
         public async Task<Assunto> GetById(int id)
         {
-            return await _context.Assuntos.Include(a => a.Questoes).FirstOrDefaultAsync(a => a.Id == id);
+            return await _context.Assuntos
+                        .Include(a => a.Questoes)
+                            .ThenInclude(q => q.Alternativas)
+                        .Include(q => q.Explicacoes)
+                        .FirstOrDefaultAsync(a => a.Id == id);
         }
 
         public async Task<Assunto> Update(Assunto assunto)
         {
             _context.Assuntos.Update(assunto);
-
             await _context.SaveChangesAsync();
-
             return assunto;
         }
     }

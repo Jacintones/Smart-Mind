@@ -22,7 +22,9 @@ namespace Smart_Mind.Application.DTOs.Request
 
         public int UsuarioId { get; set; }
 
-        public ICollection<int> QuestoesId { get; set; } = null!;
+        public ICollection<int> QuestoesId { get; set; } = [];
+
+        public ICollection<RespostaUsuarioDTO> RespostaUsuarios { get; set; } = [];
 
         [JsonIgnore]
         public ICollection<Questao>? Questoes { get; set; } 

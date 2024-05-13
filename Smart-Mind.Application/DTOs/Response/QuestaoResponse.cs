@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Smart_Mind.Application.DTOs.Request;
+using Smart_Mind.Domain.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace Smart_Mind.Application.DTOs.Response
 {
@@ -8,19 +10,13 @@ namespace Smart_Mind.Application.DTOs.Response
 
         public string Enunciado { get; set; } = null!;
 
-        public string ImagemUrl { get; set; } = null!;
-
-        public string AlternativaCorreta { get; set; } = null!;
-
-        public string AlternativaErrada1 { get; set; } = null!;
-
-        public string AlternativaErrada2 { get; set; } = null!;
-
-        public string AlternativaErrada3 { get; set; } = null!;
-
-        public string AlternativaErrada4 { get; set; } = null!;
+        public string? ImagemUrl { get; set; }
 
         public string Dificuldade { get; set; } = null!;
+
+        public ExplicacaoDTO? Explicacao { get; set; }
+
+        public List<AlternativaDTO> Alternativas { get; set; } = [];
 
         public int AssuntoId { get; set; }
     }
